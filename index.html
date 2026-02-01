@@ -1189,8 +1189,9 @@
         </div>
 
         <div class="relative z-10 flex flex-col items-center gap-8 w-full max-w-md px-6">
-            <!-- Logo (Larger Size) -->
-            <img src="crowdarc svg white.svg" alt="CrowdArc" class="h-40 drop-shadow-xl select-none" />
+            <!-- Logo (Larger Size - Dark for Light Mode) -->
+            <img src="crowdarc svg white.svg" alt="CrowdArc" class="h-40 drop-shadow-xl select-none"
+                style="filter: brightness(0);" />
 
             <!-- Quote Container (Light Theme Text) -->
             <div id="sysInsight" class="text-center w-full min-h-[60px] flex items-center justify-center">
@@ -3340,7 +3341,7 @@
         <div
             class="w-full border-b border-white/5 bg-[#020617] py-4 relative overflow-hidden flex items-center shrink-0 rounded-t-[4rem] z-10">
             <div
-                class="flex gap-12 whitespace-nowrap animate-scroll-left text-xs font-mono font-bold text-teal-400 tracking-[0.2em] uppercase select-none drop-shadow-[0_0_8px_rgba(45,212,191,0.5)]">
+                class="flex gap-12 whitespace-nowrap animate-scroll-left text-xs font-mono font-bold text-[#00E5FF] tracking-[0.2em] uppercase select-none drop-shadow-[0_0_8px_rgba(0,229,255,0.5)]">
                 <span>// SYSTEM_STATUS: ONLINE</span>
                 <span>// LATENCY: 12ms</span>
                 <span>// ENCRYPTION: AES-256</span>
@@ -3524,13 +3525,13 @@
                     <!-- Mobile-Only Social Icons (Centered in empty space) -->
                     <div class="flex md:hidden items-center justify-center gap-8 mt-12 mb-8">
                         <a href="https://linkedin.com" target="_blank"
-                            class="text-[#00E5FF] hover:text-white transition-colors"><i
+                            class="text-white/40 hover:text-[#00E5FF] transition-colors"><i
                                 class="fab fa-linkedin text-xl"></i></a>
                         <a href="https://instagram.com" target="_blank"
-                            class="text-teal-400 hover:text-white transition-colors"><i
+                            class="text-white/40 hover:text-[#00E5FF] transition-colors"><i
                                 class="fab fa-instagram text-xl"></i></a>
                         <a href="https://github.com" target="_blank"
-                            class="text-teal-400 hover:text-white transition-colors"><i
+                            class="text-white/40 hover:text-[#00E5FF] transition-colors"><i
                                 class="fab fa-github text-xl"></i></a>
                     </div>
                 </div>
@@ -3545,11 +3546,12 @@
                 <p>&copy; 2026 CROWDARC SYSTEMS INC. // ALL RIGHTS RESERVED.</p>
                 <div class="hidden md:flex items-center gap-6 text-lg">
                     <a href="https://linkedin.com" target="_blank"
-                        class="text-teal-400 hover:text-white transition-colors"><i class="fab fa-linkedin"></i></a>
+                        class="text-white/40 hover:text-[#00E5FF] transition-colors"><i class="fab fa-linkedin"></i></a>
                     <a href="https://instagram.com" target="_blank"
-                        class="text-teal-400 hover:text-white transition-colors"><i class="fab fa-instagram"></i></a>
+                        class="text-white/40 hover:text-[#00E5FF] transition-colors"><i
+                            class="fab fa-instagram"></i></a>
                     <a href="https://github.com" target="_blank"
-                        class="text-teal-400 hover:text-white transition-colors"><i class="fab fa-github"></i></a>
+                        class="text-white/40 hover:text-[#00E5FF] transition-colors"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </div>
@@ -3565,9 +3567,10 @@
                 class="w-8 h-8 rounded-full flex items-center justify-center transition-transform bg-transparent">
                 <i class="fas fa-bars text-[#00E5FF] text-lg drop-shadow-[0_0_8px_rgba(0,229,255,0.8)]"></i>
             </div>
-            <div class="h-full py-1.5 flex items-center">
+            <div class="h-full py-1 flex items-center">
                 <a href="#hero" class="h-full block">
-                    <img src="crowdarc svg white.svg" class="h-full w-auto object-contain opacity-100 origin-left">
+                    <img src="mobile_nav_logo.svg"
+                        class="h-full w-auto object-contain opacity-100 origin-left scale-150">
                 </a>
             </div>
         </div>

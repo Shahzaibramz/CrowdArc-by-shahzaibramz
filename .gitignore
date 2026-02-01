@@ -1,0 +1,24 @@
+# Backups
+*backup*
+*.bak
+crowdA_backup_original.html
+ser2_backup_original.html
+
+# Temporary & Junk Files
+*temp*
+*.txt
+js_to_add.js
+*.tmp
+h - frame at 0m6s.jpg
+
+# Unused/Reference Files (Safe to ignore if not used in index.html)
+ser2.html
+services_temp_part1.html
+why_choose_assets.png
+
+# System
+Thumbs.db
+Desktop.ini
+.DS_Store
+node_modules/
+.env
